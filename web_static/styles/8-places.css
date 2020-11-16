@@ -38,6 +38,7 @@ h2
     width: 60px;
     height: 60px;
     font-size: 30px;
+    text-align: right;
     /*align-items: top;*/
 }
 .information
