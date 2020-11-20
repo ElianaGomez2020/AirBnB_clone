@@ -1,146 +1,111 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href ="styles/3-header.css"> 
-        <link rel="stylesheet" href ="styles/3-footer.css">
-        <link rel="stylesheet" href ="styles/6-filters.css">
-        <link rel="stylesheet" href ="styles/7-places.css">
-        <link rel="stylesheet" href ="styles/4-common.css">
-        <link rel="stylesheet" href ="styles/8-places.css">
-        <link rel="shortcut icon" href="images/icon.png" type="image/png">
-        <title>Airbnb clone</title>
+        <link rel="stylesheet" href="styles/4-common.css">
+        <link rel="stylesheet" href="styles/3-header.css">
+        <link rel="stylesheet" href="styles/3-footer.css">
+        <link rel="stylesheet" href="styles/6-filters.css">
+        <link rel="stylesheet" href="styles/8-places.css">
+        <link rel="icon" href="images/icon.png">
+        <title>
+            Airbnb clone
+        </title>
     </head>
-
     <body>
-
         <header>
             <div class="logo">
-                
             </div>
         </header>
-
         <div class="container">
             <section class="filters">
-                    <div class="locations"> 
-                        <h3>States</h3>
-                        <h4>California, Arizona...</h4>
-                        <div class="popover">
-                            <ul>
-                                <li><h2>Arizona:</h2></li>
-                                    <li>Page</li>
-                                    <li>Page2</li>
-                            </ul>
-                            <ul>
-                                <li><h2>California:</h2></li>
-                                    <li>San Francisco</li>
-                                    <li>Los Altos</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                <div class="amenities">
-                    <h3>Amenities</h3>
-                    <h4>Internet, Kitchen...</h4>
+                <div class="locations">
+                    <h3>
+                        States
+                    </h3>
+                    <h4>
+                        Florida
+                    </h4>
                     <div class="popover">
                         <ul>
-                            <li>Internet</li>
-                            <li>TV</li>
-                            <li>Kitchen</li>
-                            <li>Iron</li>
-                            </ul>
+                            <li><h2>State name:</h2></li>
+                                <li>cities</li>
+                        </ul>
+                        <ul>
+                            <li><h2>State name:</h2></li>
+                                <li>cities</li>
+                        </ul>
                     </div>
-            
                 </div>
-
+                <div class="amenities">
+                    <h3>
+                        Amenities
+                    </h3>
+                    <h4>
+                        Nothing
+                    </h4>
+                    <div class="popover">
+                        <ul>
+                            <li>amenities</li>
+                        </ul>
+                    </div>
+                </div>
                 <button type="button">
-                    Search
+                    search
                 </button>
-                
             </section>
-        
             <section class="places">
-                <h1>Places</h1>
+                    <h1>Places</h1>
                     <article>
-                        <div style="background-color: yellow;">
-                            <h2 style="background-color: red;"> My home</h2>
-                            <div class="price_by_night" style="background-color: rebeccapurple; display: inline;">
-                                
-                            </div>
-
+                        <h2 >My home</h2>
+                        <div class="price_by_night">$80</div>
+                        <div class="information">
+                        <div class="max_guest"><p>4 Guests</p></div>
+                        <div class="number_rooms"><p>3 Rooms</p></div>
+                        <div class="number_bathrooms"><p>2 Bathroom</p></div>
                         </div>
-                        <div class="information" style="background-color: blue;">
-                            <div class="max_guest">
-                                <p>acomocación multiple</p>
-                            </div>
-                            <div class="number_rooms">
-                                <p>6 habitaciones</p>
-                            </div>
-                            <div class="number_bathrooms">
-                                <p>6 baños</p>
-                            </div>   
-                        </div>
-                        <div class="User" style="background-color: pink;">
-                            <p>Ower:hola mundo</p>
-                        </div>
-                        <div class="description" style="background-color: green;">
-                            <p>Ower:hola mundo</p>
-                        </div>            
+                        <div class="user"><p><b>Owner:</b> Owner name</p></div>
+                        <div class="description">
+                        <p>Our home is near a busy main street and has 4 rooms,
+                        a garden and rooftop with a view on the neighborhood. 
+                        Take a walk to parks, sport complex, malls and around a friendly
+                        and vivid neighborhood. Feel good and at home.</p></div>
                     </article>
                     <article>
-                        <h2> Tiny house</h2>
-                        <div class="price_by_night">
-                        </div>
+                        <h2>Tiny house</h2>
+                        <div class="price_by_night">$65</div>
                         <div class="information">
-                            <div class="max_guest">
-                                <p>acomocación multiple</p>
-                            </div>
-                            <div class="number_rooms">
-                                <p>6 habitaciones</p>
-                            </div>
-                            <div class="number_bathrooms">
-                                <p>6 baños</p>
-                            </div>   
+                        <div class="max_guest"><p>2 Guests</p></div>
+                        <div class="number_rooms"><p>1 Room</p></div>
+                        <div class="number_bathrooms"><p>1 Bathroom</p></div>
                         </div>
-                        <div class="User">
-                            <p>Ower:hola mundo</p>
-                        </div>
+                        <div class="user"><p><b>Owner:</b> Owner name</p></div>
                         <div class="description">
-                            <p>Ower:hola mundo</p>
-                        </div>
+                            <p>This house for two has a bedroom, bathroom and a kitchen.
+                            It looks like a glamping get away. 
+                            Enjoy cooking outside, relax by a fire at night in your own space near the beach.</p></div>
                     </article>
                     <article>
-                        <h2> A suite</h2>
-                        <div class="price_by_night">
-                        </div>
+                        <h2>A suite</h2>
+                        <div class="price_by_night">$100</div>
                         <div class="information">
-                            <div class="max_guest">
-                                <p>acomocación multiple</p>
-                            </div>
-                            <div class="number_rooms">
-                                <p>6 habitaciones</p>
-                            </div>
-                            <div class="number_bathrooms">
-                                <p>6 baños</p>
-                            </div>   
+                        <div class="max_guest"><p>3 Guests</p></div>
+                        <div class="number_rooms"><p>2 Rooms</p></div>
+                        <div class="number_bathrooms"><p>1 Bathroom</p></div>
                         </div>
-                        <div class="User">
-                            <p>Ower:hola mundo</p>
-                        </div>
+                        <div class="user"><p><b>Owner:</b> Owner name</p></div>
                         <div class="description">
-                            <p>Ower:hola mundo</p>
+                            <p>A modern, sun-drenched suite offers a tranquil residential 
+                            vibe alongside quick, easy access to the downtown areas. 
+                            Admire the crisp, contemporary decor of the open-plan living space and 
+                            take in the peaceful surroundings from the stunning terrace.</p>
                         </div>
                     </article>
             </section>
-    
-            
-
         </div>
-
-        
         <footer>
-            <p>Holber School</p>
+            <p>
+                Holberton School
+            </p>
         </footer>
-
-    </body>    
-
+    </body>
 </html>
